@@ -3,7 +3,7 @@
 }
 
 :root{
-    --box-size: 100px;
+    --box-size: 150px;
     --mark-size: calc(var(--box-size) * .9);
 }
 
