@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p id="Pa"></p>
+    <div id="first">
+        <img id="image1" src="images/backside.jpg" alt="logo">
+    </div>
+    <p id="p"></p>
+    <div id="second">
+        <img id="image3" src="images/backside.jpg" alt="logo">
+        <img id="image4" src="images/backside.jpg" alt="logo">
+    </div>
+    <div id="bet">0</div>
+    <div class="bar">
+        <button onclick="sub(`-`)">-</button> 
+        <button>BET</button> 
+        <button onclick="sub(`+`)">+</button> 
+        <button id="slot1" onclick="hit()">double</button> 
+        <button id="slot2" onclick="deal()">deal</button> 
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>

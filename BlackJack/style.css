@@ -1,0 +1,48 @@
+body{
+    margin-left: 0px;
+    padding: 0px;
+    background-color: green;
+}
+img{
+    margin-left: 500px;
+    width: 120px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 13px;
+}
+#image2,#image4,.image{
+    margin-left:-116px;
+}
+.bar{
+    margin-left: 400px;
+}
+button{
+    margin-left: 10px;
+    border: none;
+    background: #404040;
+    font-weight: 100;
+    padding: 20px;
+}
+#win{
+    width: 155px;
+    height: 47px;
+    background-color: #e1419a;
+    margin: 10px auto;
+    border: 2px solid;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 17px;
+    font-weight: bolder;
+}
+#bet{
+    width: 40px;
+    height: 40px;
+    background-color: wheat;
+    margin-left: 82px;
+    border-radius: 19px;
+    border: 2px solid;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 2px;
+}
